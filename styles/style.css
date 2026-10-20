@@ -13,7 +13,7 @@ a {
 
 .header__links-list {
     display: flex;
-    gap: 25px; 
+    gap: 25px;
     list-style: circle;
 }
 
@@ -36,23 +36,19 @@ a {
     flex-direction: column;
     align-items: flex-start;
     font-style: normal;
-    
-}
-
-.address a, 
-.address p {
-    line-height: 24.3px; 
-    font-size: 18px; 
+    line-height: 24.3px;
+    font-size: 18px;
 }
 
 .header__address {
     max-width: 240px;
     justify-self: end;
+    margin-right: 50px;
 }
 
 .cover {
     position: relative;
-    min-height: 757px;
+    height: 757px;
     background-image: url("../images/cover.jpg");
     background-size: cover;
     background-position: center;
@@ -75,23 +71,24 @@ a {
     padding-left: 50px;
     padding-right: 50px;
     font-size: 100px;
-    line-height: 115px;
-    letter-spacing: 30%; 
+    line-height: 114px;
+    letter-spacing: 30%;
     text-transform: uppercase;
     color: #fff;
 }
 
 .aligned-text {
     display: block;
-    margin-bottom: 20px; 
 }
 
 .aligned-text_left {
     text-align: left;
+    margin-bottom: 20px;
 }
 
 .aligned-text_center {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .aligned-text_right {
@@ -104,7 +101,9 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
 }
 
 .cover__description-text {
