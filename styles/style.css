@@ -43,7 +43,7 @@ a {
 .header__address {
     max-width: 240px;
     justify-self: end;
-    margin-right: 50px;
+    margin-right: 45px;
 }
 
 .cover {
@@ -69,7 +69,7 @@ a {
     padding-top: 165px;
     padding-bottom: 106px;
     padding-left: 50px;
-    padding-right: 50px;
+    padding-right: 25px;
     font-size: 100px;
     line-height: 114px;
     letter-spacing: 30%;
@@ -207,7 +207,7 @@ a {
     grid-template-columns: 334px 1fr;
     gap: 25px;
     padding: 0 24px;
-    margin-bottom: 120px;
+    margin-bottom: 180px;
 }
 
 .about__column:first-child {
